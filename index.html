@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caça-Comp</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="menu-pg" data-pagina="menu">
+<header class="topo">
+  <h1>Caça-Comp</h1>
+  <p class="sub">Jogo de Caça-Palavras com componentes computacionais</p>
+</header>
+<main class="menu">
+  <section class="historico">
+    <h2>Suas partidas</h2>
+    <div class="rolagem">
+      <table>
+        <thead><tr><th>Rodada</th><th>Acertos</th><th>Tempo</th></tr></thead>
+        <tbody id="corpo"></tbody>
+      </table>
+    </div>
+  </section>
+  <aside class="lateral">
+    <div class="pb">
+      <span>Seu recorde (PB)</span>
+      <strong id="pb">—</strong>
+      <small>Desafio completo com o menor tempo</small>
+    </div>
+    <a class="btn" href="jogo.html">Jogar</a>
+  </aside>
+</main>
+<footer>Brayan Laines Carvalho - Projeto para São Paulo Tech School sob orientação do prof. Matheus Matos</footer>
+<script src="script.js"></script>
+</body>
+</html>

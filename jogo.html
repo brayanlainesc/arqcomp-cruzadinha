@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caça-Comp — Jogo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="jogo-pg" data-pagina="jogo">
+<header class="topo"><h1>Caça-Comp</h1></header>
+<main class="jogo">
+  <section class="col-tab">
+    <div id="tabuleiro" class="tabuleiro coberto">
+      <div class="celulas" id="celulas"></div>
+      <div class="capa" id="capa"></div>
+    </div>
+    <div id="aviso" class="aviso"></div>
+  </section>
+  <aside class="painel">
+    <div class="fracao" id="fracao">0/16</div>
+    <div class="listas">
+      <ol id="dicas" class="dicas"></ol>
+      <ul id="achadas" class="achadas"></ul>
+    </div>
+    <div class="cron" id="cron">00:00</div>
+    <div class="botoes">
+      <button class="btn" id="btn-jogo">Começar</button>
+      <button class="btn" id="btn-sair">Menu</button>
+    </div>
+  </aside>
+</main>
+<footer>Brayan Laines Carvalho - Projeto para São Paulo Tech School sob orientação do prof. Matheus Matos</footer>
+<script src="dicas.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
